@@ -78,12 +78,18 @@ export default function MediaCard({ src, title }) {
   };
 
   return (
-    <Card sx={{ maxWidth: 345 }} style={{backgroundColor:"#d9d9d9", borderRadius:"30px"}}>
-      <CardMedia
-        sx={{ height: 240 }}
-        image={src}
-        title={title}
-      />
+    <Card sx={{ maxWidth: 320 }} style={{backgroundColor:"#d9d9d9", borderRadius:"30px"}}>
+          <CardMedia  
+          sx={{ 
+            height: 240,  // Fixed height for the image
+            objectFit: 'contain',  // Ensure the image fits within the specified dimensions without stretching
+            borderRadius: '30px 30px 0 0',  // Example of border radius for the top corners
+
+          }}  
+          image={src}
+          title={title}
+          padding="120px"
+        />
       <CardContent>
         <Typography textAlign="center" gutterBottom variant="h5" component="div">
           {title}
@@ -104,7 +110,7 @@ export default function MediaCard({ src, title }) {
         </Box>
       </CardContent>
       <Grid display="flex" justifyContent="center" alignItems="center">
-        <button size="small" className='bannerbutton'>Add to Banner</button>
+      <button size="small" className='bannerbutton'>Add to Banner</button>
       </Grid>
     </Card>
   );
