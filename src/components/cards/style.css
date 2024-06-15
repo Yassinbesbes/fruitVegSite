@@ -1,0 +1,102 @@
+
+.counter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 0px;
+    width: 150px;
+}
+
+.counter-button {
+    background-color: #87CEFA; /* Light blue color */
+    border: none;
+    border-radius: 50%;
+    color: black;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.counter-button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+.counter input {
+    border: none;
+    text-align: center;
+    font-size: 20px;
+    width: 50px;
+    outline: none;
+}
+
+.counter input::-webkit-outer-spin-button,
+.counter input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.counter input[type=number] {
+    -moz-appearance: textfield;
+}
+
+
+
+/***************/
+.custom-dropdown {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 25px;
+    padding-left: 10px;
+    width: 100px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+  }
+  
+  .custom-dropdown span {
+    font-size: 16px;
+  }
+  
+  .dropdown-icon {
+    background-color: #87CEFA; /* Light blue color */
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .dropdown-menu{
+    z-index: 1;
+    text-align: center;
+    border-radius: 20px;
+    
+  }
+  .dropdown-item:hover{
+    background-color: rgb(224, 224, 224);
+    border-radius: 20px;
+
+  }
+  
+
+
+/* button Banner Style */
+.bannerbutton{
+    background-color: #47df3a;
+    border: none ;
+    border-radius: 20px;
+    padding: 15px;
+    color:white;
+    margin: 10px;
+    font-size: 15px;
+}
+  
