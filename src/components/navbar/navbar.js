@@ -17,7 +17,7 @@ import Grid from '@mui/material/Grid';
 import Image from 'react-bootstrap/Image';
 
 
-import './webapp.css';
+import './Navbar.css';
 
 
 import Group from '../../assets/images/background/Group.png';
@@ -27,7 +27,7 @@ const pages = ['NEW', 'fruits', 'vegetables'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 
-function Webapp() {
+function Navbar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   const [anchorElUser, setAnchorElUser] = React.useState(null);
 
@@ -202,4 +202,4 @@ function Webapp() {
   </>
   );
 }
-export default Webapp;
+export default Navbar;

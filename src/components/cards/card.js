@@ -2,7 +2,6 @@ import * as React from 'react';
 import { useState } from 'react';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Grid';
 import Item from '@mui/material/ListItem';
@@ -78,18 +77,29 @@ export default function MediaCard({ src, title }) {
   };
 
   return (
-    <Card sx={{ maxWidth: 320 }} style={{backgroundColor:"#d9d9d9", borderRadius:"30px"}}>
-          <CardMedia  
-          sx={{ 
-            height: 240,  // Fixed height for the image
-            objectFit: 'contain',  // Ensure the image fits within the specified dimensions without stretching
-            borderRadius: '30px 30px 0 0',  // Example of border radius for the top corners
-
-          }}  
-          image={src}
-          title={title}
-          padding="120px"
+    <Card sx={{ maxWidth: 300 }} style={{backgroundColor:"#d9d9d9", borderRadius:"30px"}}>
+                <Box
+        sx={{
+          height: 200, // Updated height for the image
+          width: 300, // Updated width for the image
+          display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'center',
+          overflow: 'hidden',
+          borderRadius: '30px 30px 0 0', // Example of border radius for the top corners
+          paddingTop:'12px',
+        }}
+      >
+        <img
+          src={src}
+          alt={title}
+          style={{
+            height: '90%',
+            width: '90%',
+            objectFit: 'contain', // Ensure the image fits within the specified dimensions without stretching
+          }}
         />
+      </Box>
       <CardContent>
         <Typography textAlign="center" gutterBottom variant="h5" component="div">
           {title}

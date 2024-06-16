@@ -1,7 +1,9 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
-import Carouselparte from "./components/carousel/carousel.js";
-import Webapp from './components/page/webapp.js';
+import CarouselVegparte from "./components/carousel/carouselVeg.js";
+import CarouselFruit from "./components/carousel/carouselFruit.js";
+
+import Navbar from './components/navbar/navbar.js';
 
 import './components/cards/style.css';
 
@@ -10,8 +12,9 @@ import './components/cards/style.css';
 function App() {
   return (
     <div className="App">
-      <Webapp />
-      <Carouselparte />
+      <Navbar/>
+      <CarouselVegparte />
+      <CarouselFruit/>
     </div>
   );
 }
