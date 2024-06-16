@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/fruitVegSite/static/css/main.2543ad01.css",
+    "main.js": "/fruitVegSite/static/js/main.4cee2ed0.js",
+    "static/js/453.74be68e6.chunk.js": "/fruitVegSite/static/js/453.74be68e6.chunk.js",
+    "static/media/backgound.png": "/fruitVegSite/static/media/backgound.e8514d6d95f6f0d98637.png",
+    "static/media/Group.png": "/fruitVegSite/static/media/Group.13c2328c5d5e1d6dadb7.png",
+    "static/media/banane.png": "/fruitVegSite/static/media/banane.563fe72d2e914825d271.png",
+    "static/media/fennet.png": "/fruitVegSite/static/media/fennet.c40738a65cad49ef9951.png",
+    "static/media/avocados.png": "/fruitVegSite/static/media/avocados.c9c7073133d203085808.png",
+    "static/media/tomato.png": "/fruitVegSite/static/media/tomato.61fd3f3a104113a22cad.png",
+    "static/media/apple.png": "/fruitVegSite/static/media/apple.1d3c596672751e429424.png",
+    "static/media/spring_onion.png": "/fruitVegSite/static/media/spring_onion.b1b6bfeb570ad0afa448.png",
+    "index.html": "/fruitVegSite/index.html",
+    "main.2543ad01.css.map": "/fruitVegSite/static/css/main.2543ad01.css.map",
+    "main.4cee2ed0.js.map": "/fruitVegSite/static/js/main.4cee2ed0.js.map",
+    "453.74be68e6.chunk.js.map": "/fruitVegSite/static/js/453.74be68e6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2543ad01.css",
+    "static/js/main.4cee2ed0.js"
+  ]
+}
